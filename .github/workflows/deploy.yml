@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Kodni yuklash
+      
         uses: actions/checkout@v4
-
       - name: SSH kalitini sozlash
         run: |
           mkdir -p ~/.ssh
